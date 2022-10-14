@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # doors = [False] * 101
 #
 # print(doors)
@@ -17,3 +18,12 @@ for i in range(1, 11, 2):
 
 
 
+=======
+door_status = [False]*101
+
+for i in range(1,101):
+    for j in range(1, 101, i):
+        door_status[j] = not door_status[j]
+
+    
+>>>>>>> Stashed changes
